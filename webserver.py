@@ -72,7 +72,7 @@ class WebServerHandler(BaseHTTPRequestHandler):
         except:
             pass 
     
-    #creates the server until ctrl+c is pressed 
+#creates the server until ctrl+c is pressed 
 def main():
     try:
         port=8080
